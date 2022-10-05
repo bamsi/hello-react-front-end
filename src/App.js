@@ -3,11 +3,9 @@ import Greeting from './components/Greeting';
 
 function App() {
   return (
-    <>
-      <Routes>
-        <Route path="/" element={<Greeting />} />
-      </Routes>
-    </>
+    <Routes>
+      <Route path="/" element={<Greeting />} />
+    </Routes>
   );
 }
 
